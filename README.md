@@ -20,7 +20,7 @@ piece. That way we each know our own code well enough to explain it in the prese
 
 | Who | Part | Status |
 |---|---|---|
-| Nabintou Fofana | Placing objects, fractal trees | done — in the repo |
+| Nabintou Fofana | Placing objects, fractal trees | done - in the repo |
 | Loi Nguyen | Terrain mesh, sculpting brushes, random terrain, colouring | in progress |
 | Syed Naqvi | Water, day/night lighting, rain and snow | in progress |
 | Anisha Baidya | Camera, on-screen menu, putting it all together | in progress |
@@ -82,12 +82,12 @@ in it, in case anyone needs to rebuild the scene from scratch.
 
 | Chapter | Where we use it |
 |---|---|
-| 3 — Transformations | Moving, turning and scaling the objects you place |
-| 4 — Bézier curves | Camera flythrough path |
-| 5 — Perspective, 3D data structures | The camera, and how the terrain mesh is stored |
-| 6 — Hidden surfaces | Vertex normals and depth sorting on the terrain |
-| 7 — Colour and shading | Day/night colour blending, colouring terrain by height and slope |
-| 8 — Fractals | The L-system trees, and the diamond-square terrain generator |
+| 3 - Transformations | Moving, turning and scaling the objects you place |
+| 4 - Bézier curves | Camera flythrough path |
+| 5 - Perspective, 3D data structures | The camera, and how the terrain mesh is stored |
+| 6 - Hidden surfaces | Vertex normals and depth sorting on the terrain |
+| 7 - Colour and shading | Day/night colour blending, colouring terrain by height and slope |
+| 8 - Fractals | The L-system trees, and the diamond-square terrain generator |
 
 The fractal code is based on the `FractalGrammars.java` example from class and the
 grammars listed in section 8.2 of Ammeraal & Zhang. The camera path work is based on the
