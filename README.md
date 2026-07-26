@@ -1,6 +1,7 @@
-# TerraScape — An Interactive 3D Terrain and Environment Sandbox
+# TerraScape - An Interactive 3D Terrain and Environment Sandbox
 
-**CS 4361.0W1 — Computer Graphics — Summer 2026 — Team 1**
+**CS 4361.0W1 - Computer Graphics - Summer 2026 - Team 1**
+
 Theme 3: Interactive Graphics Program
 
 Anisha Baidya · Loi Nguyen · Syed Naqvi · Nabintou S. Fofana
