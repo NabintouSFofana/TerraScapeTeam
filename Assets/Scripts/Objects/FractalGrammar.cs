@@ -1,13 +1,5 @@
 // Holds the rules that describe one fractal curve.
-//
-// Our textbook (Ammeraal & Zhang, "Computer Graphics for Java Programmers" 3rd ed.,
-// section 8.2 "String Grammars") writes a grammar as six things:
-//     (axiom, F-string, f-string, X-string, Y-string, angle)
-// The FractalGrammars.java example we were given in class adds U- and V-strings on
-// top of that, so I kept those as well. Where the book says "nil" I just use an
-// empty string.
-//
-// What each character means when the turtle reads it (section 8.2):
+// What each character means when the turtle reads it:
 //   F  move forward and draw a line
 //   f  move forward without drawing
 //   +  turn right by the angle
