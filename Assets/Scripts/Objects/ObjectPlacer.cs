@@ -4,11 +4,6 @@ using UnityEngine;
 //   Left click                   place a tree or a rock
 //   Scroll wheel over an object  turn it
 //   Right click on an object     delete it
-//
-// It all works by shooting a ray from the camera through the mouse position and
-// seeing what it hits (Physics.Raycast). This is the picking idea from class - the
-// mouse only gives us a 2D screen point, so we need the ray to work out which 3D
-// point on the ground the user actually clicked.
 public class ObjectPlacer : MonoBehaviour
 {
     public enum Kind { Tree, Rock, Dragon }
@@ -87,7 +82,7 @@ public class ObjectPlacer : MonoBehaviour
         plant.initialLength = isDragon ? 1.2f : Random.Range(5f, 8f);
         plant.Build();
 
-        // The plant is drawn as lines, so it has no collider of its own. Wrap a box
+        // The plant is drawn as lines
         // around it so the user can still click it to turn or delete it.
         BoxCollider box = go.AddComponent<BoxCollider>();
         MeshFilter mf = go.GetComponent<MeshFilter>();
