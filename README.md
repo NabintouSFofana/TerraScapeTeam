@@ -34,7 +34,7 @@ Nabintou is sending each person a document on Discord with the details of their 
 1. Install **Unity 6.5**, version `6000.5.4f1`. We all need the same version or the
    project breaks when we swap files.
 2. In GitHub Desktop: **File → Clone repository →** pick this one. Put it somewhere
-   simple like `C:\Dev\`. **Don't put it in OneDrive** — OneDrive syncs while Unity is
+   simple like `C:\Dev\`. **Don't put it in OneDrive** - OneDrive syncs while Unity is
    working and corrupts the project.
 3. **Unity Hub → Open →** choose the folder you just cloned.
 4. Open `Assets/Scenes/SampleScene` and hit **Play**.
@@ -42,7 +42,7 @@ Nabintou is sending each person a document on Discord with the details of their 
 If it worked you can left click the grey ground to grow a tree, scroll over a tree to
 turn it, and right click to delete it.
 
-The grey plane is temporary — it's only there so there's something to click on until
+The grey plane is temporary - it's only there so there's something to click on until
 Loi's terrain is in. The placer uses a raycast so it works on either one without any
 code change.
 
@@ -91,7 +91,7 @@ in it, in case anyone needs to rebuild the scene from scratch.
 
 The fractal code is based on the `FractalGrammars.java` example from class and the
 grammars listed in section 8.2 of Ammeraal & Zhang. The camera path work is based on the
-`Bezier.java` example and section 4.6. Both were rewritten in C# for Unity — details are
+`Bezier.java` example and section 4.6. Both were rewritten in C# for Unity - details are
 in the comments at the top of those files.
 
 ---
