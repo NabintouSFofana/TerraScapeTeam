@@ -2,21 +2,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // Draws a fractal curve using turtle graphics.
-//
-// This is my C# version of the FractalGrammars.java program we were given in class
-// (the turtleGraphics method inside CvFractalGrammars), which is explained in
-// Ammeraal & Zhang section 8.2. I kept the same idea: the method is recursive, so
-// when it meets an F and we are not at the bottom yet, it calls itself on the
-// F-string with one less level and a shorter step. It never builds the big expanded
-// string, which is nice because that string gets huge very fast.
-//
-// Two things I had to change to make it work in Unity:
-//  1. The Java version draws straight to the screen with Graphics.drawLine(). Unity
-//     doesn't work that way, so instead I collect every segment and build them into
-//     a mesh at the end, which means the curve is real 3D geometry in the scene.
-//  2. The Java version only remembers one saved position (xMark/yMark/dirMark).
-//     Section 8.2 says a stack is the right structure for [ and ], so I used a Stack.
-//     It also means brackets inside brackets work properly.
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
 public class LSystemPlant : MonoBehaviour
 {
