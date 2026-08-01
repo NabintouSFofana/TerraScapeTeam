@@ -48,23 +48,6 @@ code change.
 
 ---
 
-## What's in here so far
-
-```
-Assets/Scripts/Objects/
-    ObjectPlacer.cs      places, turns and deletes things using a mouse raycast
-    PlacedObject.cs      marker so we only delete what the user added
-    FractalGrammar.cs    the rules for each fractal (from textbook section 8.2)
-    LSystemPlant.cs      draws the fractals with turtle graphics
-Assets/Editor/
-    StarterSceneBuilder.cs   menu button that sets the scene up
-```
-
-There's a **TerraScape** menu at the top of the Unity window with **Build Starter Scene**
-in it, in case anyone needs to rebuild the scene from scratch.
-
----
-
 ## Working together
 
 - Everyone works on their own branch: `loi-terrain`, `syed-environment`, `anisha-ui`,
