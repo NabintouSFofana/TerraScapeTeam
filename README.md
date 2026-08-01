@@ -20,7 +20,7 @@ piece. That way we each know our own code well enough to explain it in the prese
 
 | Who | Part | Status |
 |---|---|---|
-| Nabintou Fofana | Placing objects, fractal trees | done |
+| Nabintou Fofana | Placing objects, fractal trees, Core implementation | done |
 | Loi Nguyen | Terrain mesh, sculpting brushes, random terrain, colouring | done |
 | Syed Naqvi | Water, day/night lighting, rain and snow | done |
 | Anisha Baidya | Camera, on-screen menu, putting it all together | done |
