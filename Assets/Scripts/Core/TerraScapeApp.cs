@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// Owner: Nabintou
 public class TerraScapeApp : MonoBehaviour
 {
     public int terrainResolution = 100;
